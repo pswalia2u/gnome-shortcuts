@@ -1,0 +1,19 @@
+[custom0]
+binding='<Alt>c'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[custom1]
+binding='<Alt>x'
+command='google-chrome --no-sandbox --ignore-certificate-errors'
+name='google-chrome'
+
+[custom2]
+binding='<Super>e'
+command='nautilus'
+name='nautilus'
+
+[custom3]
+binding='<Alt>b'
+command='/opt/apni_scripts/burp_pro_shortcut.sh'
+name='burp_pro'
