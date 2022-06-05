@@ -10,3 +10,10 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command 'gnome-terminal'(Setting command of shortcut)
 
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding '<Alt>c' (Setting the shortcut keys)
+  
+  
+# Saving key bindings:
+  dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ > apni_custom_key_bindings.txt
+  
+# Loading key bindings
+  dconf load apni_custom_key_bindings.txt
