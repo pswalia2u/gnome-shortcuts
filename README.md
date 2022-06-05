@@ -16,4 +16,4 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
   dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ > apni_custom_key_bindings.txt
   
 # Loading key bindings
-  dconf load apni_custom_key_bindings.txt
+  dconf load /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ < apni_custom_key_bindings.txt
