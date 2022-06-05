@@ -17,3 +17,5 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
   
 # Loading key bindings
   dconf load /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ < apni_custom_key_bindings.txt
+
+Note: th directory path might be different on different systems 
